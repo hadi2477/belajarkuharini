@@ -1,0 +1,22 @@
+body {
+    background-color: #f0f0f0; /* Warna latar belakang */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh; /* Memastikan konten mengisi seluruh tinggi viewport */
+    margin: 0;
+}
+
+.clock {
+    background-color: #000; /* Warna latar belakang jam */
+    color: #0f0; /* Warna teks hijau */
+    font-family: monospace; /* Jenis huruf monospace */
+    font-size: 3em; /* Ukuran font */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); /* Efek bayangan */
+}
+
+#time {
+    text-align: center; /* Teks rata tengah */
+}
